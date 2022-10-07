@@ -17,6 +17,10 @@ const createEsbuildPlugin =
   
         return config;
       },
+      env: {
+        allure: true,
+        allureReuseAfterSpec: true
+      },
       specPattern: "cypress/e2e/features/*.feature",
       watchForFileChanges: false,
       defaultCommandTimeout: 5000,
