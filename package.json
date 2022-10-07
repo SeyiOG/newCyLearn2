@@ -1,0 +1,24 @@
+{
+  "name": "pipeline4cy",
+  "version": "1.0.0",
+  "description": "wiil push to git and create pipeline",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "test",
+    "cypress",
+    "pipelione"
+  ],
+  "author": "OG",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.9.0",
+    "esbuild": "^0.15.10",
+    "prettier": "^2.7.1"
+  }
+}
